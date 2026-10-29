@@ -1,0 +1,32 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Credentials and private keys
+.secrets/
+secrets.*
+credentials.*
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Candidate resumes
+resumes/
+
+# Local job description
+job_description.txt
+
+# Build artifacts
+dist/
+build/
